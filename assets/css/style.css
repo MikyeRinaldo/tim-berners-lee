@@ -1,0 +1,124 @@
+/* Meyer's CSS reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+body {
+  background-color: whitesmoke; }
+
+article {
+  background-color: lightgrey;
+  width: 60%;
+  margin: -30 auto;
+  padding: 30px 0px; }
+  article p {
+    text-align: justify; }
+
+section {
+  width: 50%;
+  margin: 2% auto;
+  background-color: white;
+  padding: 3% 3%;
+  border-radius: 10px;
+  border-left: solid 2px #bbb9b9;
+  border-bottom: solid 2px #bbb9b9;
+  border-right: solid 2px #bbb9b9; }
+  section p {
+    font-family: 'EB Garamond', serif; }
+
+/*photo de Berners*/
+.intro img {
+  display: block;
+  margin: -10 auto 30 auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 250px;
+  border: solid 4px lightslategray; }
+
+.intro a {
+  text-decoration: none;
+  color: lightslategray; }
+
+.intro p {
+  font-weight: 400;
+  color: lightslategray; }
+
+.intro .bouton-rouge {
+  display: block;
+  background-color: #c52509;
+  margin: 20px auto 0px auto;
+  padding: 12px 12px;
+  color: white;
+  font-size: 20px;
+  border-style: none;
+  border-radius: 8px; }
+  .intro .bouton-rouge:hover {
+    background-color: white;
+    color: #c52509; }
+
+h1 {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  color: darkred;
+  font-weight: 1000;
+  font-size: 30px;
+  margin-bottom: 20px; }
+
+h2 {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  font-size: 20px;
+  color: lightslategray;
+  font-weight: 800;
+  margin-bottom: 20px; }
+
+.icone {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: "Oswald", sans-serif;
+  color: lightslategray; }
+  .icone .facebook, .icone .linkedin, .icone .twitter {
+    display: inline-block;
+    text-align: center; }
+    .icone .facebook a, .icone .linkedin a, .icone .twitter a {
+      text-decoration: none;
+      color: lightslategray;
+      font-size: 30px; }
+      .icone .facebook a:hover, .icone .linkedin a:hover, .icone .twitter a:hover {
+        color: red; }
+    .icone .facebook nav, .icone .linkedin nav, .icone .twitter nav {
+      margin: 0px 40px;
+      font-size: 18px; }
+
+.liste-film {
+  color: lightslategray;
+  line-height: 24px; }
+  .liste-film span.marqueur {
+    background-color: lightgray; }
+  .liste-film figure {
+    margin: 30px auto;
+    display: inline-block; }
+    .liste-film figure img {
+      position: relative;
+      float: left;
+      margin-right: 30px; }
+  .liste-film h3 {
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    margin-bottom: 30px; }
